@@ -1,0 +1,23 @@
+{
+  "name": "projects-playground",
+  "version": "1.0.0",
+  "description": "aim to gather projects into",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NachossProduction/Projects-Playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NachossProduction/Projects-Playground/issues"
+  },
+  "homepage": "https://github.com/NachossProduction/Projects-Playground#readme",
+  "dependencies": {
+    "muuri": "^0.9.5",
+    "vite": "^2.9.6"
+  }
+}
