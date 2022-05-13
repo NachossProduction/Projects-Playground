@@ -25,6 +25,7 @@ import MdMenu from 'svelte-icons/md/MdMenu.svelte'
         float: auto;
         min-width: max-content; 
         border: 2px solid black;
+        background-color: rgba(112, 10, 1, .65);
         min-height: 10vh;
         max-height: 15vh;
         margin:0;

@@ -3,58 +3,38 @@
 import Contenu from './content/Contenu.svelte';
 import TopNav from './content/TopNav.svelte';
   import Counter from './lib/Counter.svelte'
+  import FirebaseConfig from './FirebaseConfig.svelte'
+  
+
 </script>
 
-<main>
-  <TopNav />
-  <Contenu />
-</main>
+<body>
+  <main>
+    <TopNav />
+    <Contenu />
+  </main>
+</body>
+
 
 <style>
   :root {
-    font-family:"Marck Script",serif;
-    margin: 0;
-    padding:0;
-    background-color: antiquewhite;
+    --bg-t1: rgba(0, 0, 0, 0.792);
+    --border-t1: rgb(77, 255, 0);
   }
-
-  main {
-    text-align: center;
+:global(Contenu) {
+  border: 20px solid var(--border-t1);
+    padding: 2rem;
+}
+body {
+    background-color: var(--bg-t1);
+    display: flex;
+    flex-direction: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
     padding: 0;
-    margin: 0;
-    
-  }
+}
 
 
 
-  img {
-    height: 16rem;
-    width: 16rem;
-  }
-
-  h1 {
-    color: #ff3e00;
-    text-transform: uppercase;
-    font-size: 4rem;
-    font-weight: 100;
-    line-height: 1.1;
-    margin: 2rem auto;
-    max-width: 14rem;
-  }
-
-  p {
-    max-width: 14rem;
-    margin: 1rem auto;
-    line-height: 1.35;
-  }
-
-  @media (min-width: 480px) {
-    h1 {
-      max-width: none;
-    }
-
-    p {
-      max-width: none;
-    }
-  }
 </style>
