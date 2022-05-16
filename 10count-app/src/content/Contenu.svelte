@@ -51,7 +51,6 @@
     background-color: rgb(158, 72, 72);
     color:white;
     min-width: 50vw;
-    height: 1000vh;
     z-index: 0;
   }
 

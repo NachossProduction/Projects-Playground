@@ -7,7 +7,7 @@ export let produit;
 
     <!-- image produit centré -->
     <!-- svelte-ignore a11y-img-redundant-alt -->
-    <img src="10count-app/src/assets/whisky3.jpg" /> 
+    <img src="./assets/whisky1.jpg" alt='nope' /> 
     <h3>Nom de Produit : {produit.p_nom}</h3>
 
     <p>phrase de {produit.p_description} </p>
@@ -17,3 +17,15 @@ export let produit;
     </ul>
 
   </div>
+
+  <style>
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      padding:auto;
+      border: 2px dashed darkturquoise;
+    }
+  </style>

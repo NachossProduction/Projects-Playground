@@ -33,6 +33,7 @@ body {
     align-items: center;
     margin: 0;
     padding: 0;
+    min-height: 1fr;
 }
 
 
