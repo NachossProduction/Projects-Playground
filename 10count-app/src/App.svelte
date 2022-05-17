@@ -8,34 +8,9 @@ import TopNav from './content/TopNav.svelte';
 
 </script>
 
-<body>
+<body class="themeFigma">
   <main>
     <TopNav />
     <Contenu />
   </main>
 </body>
-
-
-<style>
-  :root {
-    --bg-t1: rgba(0, 0, 0, 0.792);
-    --border-t1: rgb(77, 255, 0);
-  }
-:global(Contenu) {
-  border: 20px solid var(--border-t1);
-    padding: 2rem;
-}
-body {
-    background-color: var(--bg-t1);
-    display: flex;
-    flex-direction: column nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    min-height: 1fr;
-}
-
-
-
-</style>

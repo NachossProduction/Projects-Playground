@@ -16,16 +16,4 @@ export let produit;
 
     </ul>
 
-  </div>
-
-  <style>
-    div {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin: auto;
-      padding:auto;
-      border: 2px dashed darkturquoise;
-    }
-  </style>
+</div>

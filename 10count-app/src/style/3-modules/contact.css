@@ -1,0 +1,8 @@
+.contact {
+  font-size: 3rem;
+  display: flex;
+  margin: auto;
+  text-align: center;
+  color: var(--on-surface);
+  justify-content: center;
+}/*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,76 @@
+body {
+  background: var(--background);
+  color: var(--surface);
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+}
+
+h1 {
+  color: var(--primary);
+  box-shadow: var(--primary-v) 1rem 1rem 1rem;
+}
+
+#header {
+  border: solid 1px black;
+  padding: 40px;
+}
+
+.title {
+  display: flex;
+  font-size: 6rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: var(--on-primary);
+  border-bottom: 1vh var(--primary) dashed;
+  border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+}
+
+.side-nav-button {
+  height: clamp(3%, 50px, 7%);
+  width: clamp(3%, 50px, 7%);
+  margin: 1vh 1vw;
+  -webkit-padding-before: 5vw;
+          padding-block-start: 5vw;
+}
+
+.container-top-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.contact {
+  font-size: 3rem;
+  display: flex;
+  margin: auto;
+  text-align: center;
+  color: var(--on-surface);
+  justify-content: center;
+}
+
+.produitBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+.themeFigma {
+  --primary: #3d20e4;
+  --primary-v: #5033f7f0;
+  --secondary: #7902b0;
+  --secondary-v: #e910e2;
+  --background: #000000;
+  --surface: #ffffff;
+  --error: #d20b0be5;
+  --on-primary: #e9bd10;
+  --on-secondary: #e9bd10;
+  --on-background: #e9bd10;
+  --on-surface: #e9bd10;
+  --on-error: #ecec15e9;
+}/*# sourceMappingURL=app.css.map */
