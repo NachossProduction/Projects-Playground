@@ -5,12 +5,15 @@ import Horaire from './Horaire.svelte'
 </script>
 
 
-<div class='container-top-nav'>
-    <div class="side-nav-button">
+<div class='container-top-nav flip-scale-2-hor-top'>
+    <div class="side-nav-button flip-scale-2-hor-top">
         <MdMenu/>
     </div>
-    <div class="title">
+    <div class="title slide-top flip-scale-2-hor-top">
         10 Count
     </div>
-    <Horaire />
+    <div class="flip-scale-2-hor-top">
+        <Horaire />
+    </div>
+
 </div>

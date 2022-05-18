@@ -8,6 +8,8 @@ import TopNav from './content/TopNav.svelte';
 
 </script>
 
+<FirebaseConfig />
+
 <body class="themeFigma">
   <main>
     <TopNav />

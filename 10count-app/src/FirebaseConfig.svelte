@@ -22,5 +22,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 
 
-
+import { FirebaseServiceInstance } from "./FirebaseService.svelte";
+  let s = new FirebaseServiceInstance();
+  s.init(app);
 </script>
