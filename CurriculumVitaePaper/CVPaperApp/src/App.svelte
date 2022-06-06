@@ -41,9 +41,9 @@ import TabsNavigator from "./TabsNavigator.svelte";
       <div class="container-xs">
         <TabsNavigator />
       </div>
-      <div class="row flex-spaces child-borders child-shadows-hover">
-        <div class="sm-3 col callButton">H-Over Here ! </div>
-      </div>
+
+
+      
     </div>
 
     <!-- Footer -->
@@ -63,17 +63,17 @@ import TabsNavigator from "./TabsNavigator.svelte";
 
 <style>
   main {
-    background-color: black;
+    background-color: rgb(0,0,0,.2);
     color: goldenrod;
     text-align:center;
-    margin:0;
+    margin:auto;
     padding: 0 5rem;
-    width: fit-content;
-    height: fit-content;
+    min-width: 100vw;
+    min-height: 100vh;
   }
 
 #header {
-  text-decoration: underline blink wavy rgb(189, 181, 160);
+  text-decoration: underline dashed rgb(189, 181, 160);
   margin: 0;
     padding: 0;
   justify-content: center;
@@ -115,4 +115,11 @@ import TabsNavigator from "./TabsNavigator.svelte";
   .callButton {
     min-width: fit-content;
   }
-</style>
+
+  .content {
+
+    background: linear-gradient( rgba(126, 233, 236, 0.829), rgba(182, 118, 58, 0.527), rgba(170, 3, 3, 0.705), rgb(0,0,0,.2));
+    background: linear-gradient(rgba(107, 94, 94, 0.205), rgba(78, 132, 212, 0.671),rgb(0,0,0,.2));
+
+  }
+</style>&

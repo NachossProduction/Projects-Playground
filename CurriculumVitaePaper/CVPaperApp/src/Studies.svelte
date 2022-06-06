@@ -1,6 +1,9 @@
 <article class="article">
     <!-- <h1 class="article-title"><a href="#">Currently</a></h1>
     -->
+    <h1 > ETUDES </h1>
+
+<div  class="paper container">
     <ul class="row">
         <li>[ ApprenticeShip - Alternance ]</li>
         <ul>
@@ -31,12 +34,25 @@
         </ul>
     </ul>
 
-    <p class="text-lead"> </p>
-    <p>Lorem...</p>
-   
+</div>
+  
+
+<div>
+    <p >Platon: Connais toi , toi-même </p>
+    <p >Platon: Ce que je sais, c'est que je ne sais rien.</p>
+</div>
    
    
     <p class="article-meta">Written by <a href="#">Younes Anis Harrat, last seen: {Date.now().toString()}</a></p>
 
   
 </article>
+<style>
+    article {
+        text-align:center;display:flex;flex-direction: column;
+    }
+
+    p {
+        color:black;
+    }
+</style>

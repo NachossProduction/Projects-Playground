@@ -18,6 +18,6 @@
   "homepage": "https://github.com/NachossProduction/Projects-Playground#readme",
   "dependencies": {
     "muuri": "^0.9.5",
-    "vite": "^2.9.6"
+    "vite": "^2.9.9"
   }
 }
